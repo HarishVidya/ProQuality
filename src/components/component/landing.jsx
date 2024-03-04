@@ -75,12 +75,12 @@ export function Landing() {
                 Our certification services are recognized for their quality and reliability.
               </p>
             </div>
-            <div
+            {/* <div
               className="grid items-center justify-center max-w-5xl grid-cols-2 gap-8 mx-auto lg:gap-12">
               <div className="grid gap-1">
                 <h3 className="text-xl font-semibold">Compliance Manager</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                  "Our team was able to streamline our compliance processes with the help of Pro Quality Services Inc's certification
+                  "Our team was able to streamline our compliance processes with the help of Pro Quality Services Inc&apos;s certification
                   services. Highly recommended."
                 </p>
               </div>
@@ -91,7 +91,7 @@ export function Landing() {
                   guidance were invaluable."
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
         </section>
         <section className="flex flex-col items-center justify-center w-full py-12 border-t md:py-24 lg:py-32 dark:bg-gray-800">
@@ -100,7 +100,7 @@ export function Landing() {
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">Have Questions?</h2>
               <p
                 className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                We're here to help. Check out our FAQ or contact us directly.
+                We&apos;re here to help. Check out our FAQ or contact us directly.
               </p>
             </div>
             <div

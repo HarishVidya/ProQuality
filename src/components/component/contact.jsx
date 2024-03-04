@@ -24,7 +24,7 @@ const Contact = () => {
         <div className="space-y-2">
           <h1 className="text-4xl font-bold">Talk to our Quality Certification team</h1>
           <p className="text-gray-500 dark:text-gray-400">
-            Fill out the form below and we'll get back to you as soon as possible.
+            Fill out the form below and we&apos;ll get back to you as soon as possible.
           </p>
         </div>
       </div>

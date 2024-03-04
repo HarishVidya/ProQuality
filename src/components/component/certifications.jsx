@@ -9,20 +9,20 @@ export function Certifications() {
     <div className="py-12 sm:py-16 lg:py-24">
       <div className="container px-4">
         <div className="grid gap-6 lg:gap-8">
-          <div className="grid md:grid-cols-1 items-center px-10 gap-6 lg:gap-8">
+          <div className="grid items-center gap-6 px-10 md:grid-cols-1 lg:gap-8">
             <div className="flex flex-col justify-center space-y-3">
               <h1 className="text-3xl font-bold tracking-tight">Quality Certifications</h1>
               <p className="text-gray-600 dark:text-gray-400">
                 ISO 9001:2015, ISO 14001:2015, and IATF 16949:2016 are internationally recognized standards that provide requirements
                 for quality management systems, environmental management systems, and quality management systems for
-                the automotive industry, respectively. Achieving certification demonstrates an organization's
+                the automotive industry, respectively. Achieving certification demonstrates an organization&apos;s
                 commitment to meeting the highest standards of quality, environmental sustainability, and automotive
                 quality management.
               </p>
             </div>
 
           </div>
-          <div className="grid md:grid-cols-3 items-start pt-10 gap-6 lg:gap-8">
+          <div className="grid items-start gap-6 pt-10 md:grid-cols-3 lg:gap-8">
             <div className="flex flex-col items-center space-y-3">
               <CheckCircleIcon className="w-12 h-12 text-blue-500" />
               <h2 className="text-xl font-semibold tracking-tight">ISO 9001</h2>
@@ -56,7 +56,7 @@ export function Certifications() {
       </div>
     </div>
 
-    <div className="dark:bg-gray-800 py-12 lg:py-24 border-t">
+    <div className="py-12 border-t dark:bg-gray-800 lg:py-24">
       <div className="container px-4 md:px-6">
         <div className="grid items-center gap-6 lg:grid-cols-[1fr_600px] lg:gap-12">
           <div className="space-y-2">
@@ -68,7 +68,7 @@ export function Certifications() {
               certification, including gap analysis, documentation, training, and audits.
             </p>
           </div>
-          <ul className="grid gap-4 md:gap-6 list-disc py-4 md:py-6">
+          <ul className="grid gap-4 py-4 list-disc md:gap-6 md:py-6">
             <li>
               <h3 className="text-xl font-bold tracking-tight">Gap Analysis and Readiness Assessment</h3>
               <p
@@ -110,7 +110,7 @@ export function Certifications() {
       </div>
     </div>
 
-    <div className="py-12 lg:py-24 border-t">
+    <div className="py-12 border-t lg:py-24">
       <div className="container px-4 md:px-6">
         <div className="grid items-center gap-6 lg:grid-cols-[1fr_600px] lg:gap-12">
           <div className="space-y-2">
@@ -122,12 +122,12 @@ export function Certifications() {
               certification, including environmental review, documentation, training, and audits.
             </p>
           </div>
-          <ul className="grid gap-4 md:gap-6 list-disc py-4 md:py-6">
+          <ul className="grid gap-4 py-4 list-disc md:gap-6 md:py-6">
             <li>
               <h3 className="text-xl font-bold tracking-tight">Environment Review</h3>
               <p
                 className="text-gray-500 md:text-base/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                Conducting an initial environmental review to understand the organization's environmental aspects
+                Conducting an initial environmental review to understand the organization&apos;s environmental aspects
                 and impacts.
               </p>
             </li>
@@ -162,7 +162,7 @@ export function Certifications() {
       </div>
     </div>
 
-    <div className="dark:bg-gray-800 py-12 lg:py-24 border-t">
+    <div className="py-12 border-t dark:bg-gray-800 lg:py-24">
       <div className="container px-4 md:px-6">
         <div className="grid items-center gap-6 lg:grid-cols-[1fr_600px] lg:gap-12">
           <div className="space-y-2">
@@ -174,7 +174,7 @@ export function Certifications() {
               certification, including gap analysis, QMS documentation, training, and audits.
             </p>
           </div>
-          <ul className="grid gap-4 md:gap-6 list-disc py-4 md:py-6">
+          <ul className="grid gap-4 py-4 list-disc md:gap-6 md:py-6">
             <li>
               <h3 className="text-xl font-bold tracking-tight">Gap Analysis and QMS Assessment</h3>
               <p
@@ -217,11 +217,11 @@ export function Certifications() {
       </div>
     </div>
 
-    {/* <div className="dark:bg-gray-800 py-12 sm:py-16 lg:py-24 border-t">
+    {/* <div className="py-12 border-t dark:bg-gray-800 sm:py-16 lg:py-24">
       <div className="container px-4">
         <div className="grid gap-6 lg:gap-8">
         <h1 className="text-3xl font-bold tracking-tight">The Process</h1>
-          <div className="grid md:grid-cols-1 items-center pb-10 gap-6 lg:gap-8">
+          <div className="grid items-center gap-6 pb-10 md:grid-cols-1 lg:gap-8">
             <div className="flex flex-col justify-center space-y-3">
               <h1 className="text-3xl font-bold tracking-tight">ISO 9001:2015 Certification</h1>
               <p className="text-gray-600 dark:text-gray-400">
@@ -246,7 +246,7 @@ export function Certifications() {
             {/* <div className="flex justify-center">
               <img
                 alt="ISO 9001:2015 Certification Process"
-                className="rounded-xl object-cover"
+                className="object-cover rounded-xl"
                 height="266"
                 src="/placeholder.svg"
                 style={{
@@ -256,7 +256,7 @@ export function Certifications() {
                 width="400" />
             </div> */}
           {/* </div>
-          <div className="grid md:grid-cols-1 items-center pb-10 gap-6 lg:gap-8">
+          <div className="grid items-center gap-6 pb-10 md:grid-cols-1 lg:gap-8">
             <div className="flex flex-col justify-center space-y-3">
               <h1 className="text-3xl font-bold tracking-tight">ISO 14001:2015 Certification</h1>
               <p className="text-gray-600 dark:text-gray-400">
@@ -287,7 +287,7 @@ export function Certifications() {
             {/* <div className="flex justify-center">
               <img
                 alt="ISO 14001:2015 Certification Process"
-                className="rounded-xl object-cover"
+                className="object-cover rounded-xl"
                 height="266"
                 src="/placeholder.svg"
                 style={{
@@ -297,7 +297,7 @@ export function Certifications() {
                 width="400" />
             </div> */}
           {/* </div>
-          <div className="grid md:grid-cols-1 items-center gap-6 lg:gap-8">
+          <div className="grid items-center gap-6 md:grid-cols-1 lg:gap-8">
             <div className="flex flex-col justify-center space-y-3">
               <h1 className="text-3xl font-bold tracking-tight">IATF 16949:2016 Certification</h1>
               <p className="text-gray-600 dark:text-gray-400">
@@ -314,7 +314,7 @@ export function Certifications() {
             {/* <div className="flex justify-center">
               <img
                 alt="IATF 16949:2016 Certification Process"
-                className="rounded-xl object-cover"
+                className="object-cover rounded-xl"
                 height="266"
                 src="/placeholder.svg"
                 style={{
