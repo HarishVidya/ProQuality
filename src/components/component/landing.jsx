@@ -58,7 +58,7 @@ export function Landing() {
                 <CheckCircleIcon className="w-12 h-12" />
                 <div className="space-y-2 text-center">
                   <h3 className="font-bold">IATF 16949</h3>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">Environmental management systems</p>
+                  <p className="text-sm text-gray-500 dark:text-gray-400">Automotive quality management systems</p>
                 </div>
               </div>
             </div>
