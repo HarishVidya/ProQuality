@@ -7,7 +7,7 @@ import Link from "next/link"
 export function Services() {
   return (<>
     <div className="py-12 lg:py-24">
-      <div className="container px-4 md:px-6">
+      <div className="px-4 md:px-12">
         <div className="grid gap-12 lg:grid-cols-2 lg:gap-24">
           <div className="flex flex-col justify-center space-y-4">
             <div className="space-y-2">
@@ -26,9 +26,9 @@ export function Services() {
         </div>
       </div>
     </div>
-    <div className="dark:bg-gray-800 py-12 lg:py-24">
-      <div className="container px-4 md:px-6">
-        <div className="grid grid-cols-3 grid-rows-1 gap-20">
+    <div className="py-12 dark:bg-gray-800 lg:py-24">
+      <div className="w-full px-4 md:px-12">
+        <div className="grid items-center grid-cols-3 grid-rows-1 gap-x-20">
           <div className="flex flex-col justify-center space-y-2">
             <h3 className="text-2xl font-bold tracking-tight">ISO 9001 Quality Management</h3>
             <p
@@ -39,8 +39,8 @@ export function Services() {
               markets.
             </p>
             <Link
-              className="inline-flex h-8 items-center justify-center rounded-md border border-gray-200 bg-white px-4 text-xs font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-300 dark:hover:text-gray-900 dark:focus-visible:ring-gray-300 dark:border-gray-800"
-              href="#">
+              className="inline-flex items-center justify-center h-8 px-4 text-xs font-medium transition-colors bg-white border border-gray-200 rounded-md shadow-sm hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-300 dark:hover:text-gray-900 dark:focus-visible:ring-gray-300"
+              rel="noopener noreferrer" target="_blank" href="https://www.iso.org/standard/62085.html">
               Learn More
             </Link>
           </div>
@@ -53,8 +53,8 @@ export function Services() {
               14001 certification include reduced environmental impact, cost savings, and improved brand reputation.
             </p>
             <Link
-              className="inline-flex h-8 items-center justify-center rounded-md border border-gray-200 bg-white px-4 text-xs font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-300 dark:hover:text-gray-900 dark:focus-visible:ring-gray-300 dark:border-gray-800"
-              href="#">
+              className="inline-flex items-center justify-center h-8 px-4 text-xs font-medium transition-colors bg-white border border-gray-200 rounded-md shadow-sm hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-300 dark:hover:text-gray-900 dark:focus-visible:ring-gray-300"
+              rel="noopener noreferrer" target="_blank" href="https://www.iso.org/standard/60857.html">
               Learn More
             </Link>
           </div>
@@ -67,8 +67,8 @@ export function Services() {
                quality and continuous improvement in the automotive industry.
             </p>
             <Link
-              className="inline-flex h-8 items-center justify-center rounded-md border border-gray-200 bg-white px-4 text-xs font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-300 dark:hover:text-gray-900 dark:focus-visible:ring-gray-300 dark:border-gray-800"
-              href="#">
+              className="inline-flex items-center justify-center h-8 px-4 text-xs font-medium transition-colors bg-white border border-gray-200 rounded-md shadow-sm hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-300 dark:hover:text-gray-900 dark:focus-visible:ring-gray-300"
+              rel="noopener noreferrer" target="_blank" href="https://www.aiag.org/quality/iatf-16949-2016">
               Learn More
             </Link>
           </div>
@@ -77,7 +77,7 @@ export function Services() {
     </div>
     
     <div className="py-12 lg:py-24">
-      <div className="container grid items-center gap-4 px-4 md:px-6">
+      <div className="grid items-center gap-4 px-4 md:px-12">
         <div className="space-y-2 text-center lg:text-left">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Ready to get started?</h2>
           <p
@@ -87,20 +87,15 @@ export function Services() {
         </div>
         <div className="flex flex-col gap-2 min-[400px]:flex-row">
           <Link
-            className="inline-flex h-10 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
-            href="#">
-            Contact Sales
-          </Link>
-          <Link
-            className="inline-flex h-10 items-center justify-center rounded-md border border-gray-200 bg-white px-8 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300 dark:border-gray-800"
-            href="#">
-            Contact Support
+            className="inline-flex items-center justify-center h-10 px-8 text-sm font-medium transition-colors bg-gray-900 rounded-md shadow text-gray-50 hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
+            href="/contact">
+            Contact
           </Link>
         </div>
       </div>
     </div>
-    <div className="dark:bg-gray-800 py-12 lg:py-24">
-      <div className="container px-4 md:px-6">
+    <div className="py-12 dark:bg-gray-800 lg:py-24">
+      <div className="container px-4 md:px-12">
         <div className="grid items-center gap-6 lg:grid-cols-[1fr_600px] lg:gap-12">
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">The ISO Certification Process</h2>
@@ -111,7 +106,7 @@ export function Services() {
               certification, including gap analysis, documentation, training, and audits.
             </p>
           </div>
-          <ul className="grid gap-4 md:gap-6 list-disc py-4 md:py-6">
+          <ul className="grid gap-4 py-4 list-disc md:gap-6 md:py-6">
             <li>
               <h3 className="text-xl font-bold tracking-tight">Gap Analysis and Readiness Assessment</h3>
               <p
@@ -152,8 +147,8 @@ export function Services() {
         </div>
       </div>
     </div>
-    <div className="py-12 lg:py-24">
-      <div className="container px-4 md:px-6">
+    {/* <div className="py-12 lg:py-24">
+      <div className="container px-4 md:px-12">
         <div className="grid items-center gap-6 lg:grid-cols-[1fr_600px] lg:gap-12">
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">What Our Clients Are Saying</h2>
@@ -189,6 +184,6 @@ export function Services() {
           </div>
         </div>
       </div>
-    </div>
+    </div> */}
   </>);
 }

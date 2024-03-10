@@ -13,7 +13,7 @@ export function About() {
   return (
     <div className="w-full overflow-hidden">
       <section className="w-full py-6 md:py-12 lg:py-16">
-        <div className="container flex flex-col gap-4 px-4 text-center md:px-6">
+        <div className="flex flex-col gap-4 px-4 text-center md:px-6">
           <div className="space-y-3">
             
             <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
@@ -26,8 +26,8 @@ export function About() {
           </div>
         </div>
       </section>
-      <section className="w-full py-6 md:py-12 lg:py-16">
-        <div className="container grid items-start gap-4 px-4 md:px-6 lg:gap-10">
+      <section className="w-full py-2 md:py-6 lg:py-8">
+        <div className="container grid items-start gap-4 px-4 md:px-12 lg:gap-10">
           <div className="space-y-3">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
               The Benefits of ISO Certification
@@ -43,8 +43,8 @@ export function About() {
           </div>
         </div>
       </section>
-      <section className="w-full py-6 md:py-12 lg:py-16">
-        <div className="container grid items-start gap-4 px-4 md:px-6 lg:gap-10">
+      <section className="w-full py-6 md:py-6 lg:py-8">
+        <div className="container grid items-start gap-4 px-4 md:px-12 lg:gap-10">
           <div className="space-y-3">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
               Our Approach to ISO Certification
@@ -81,8 +81,8 @@ export function About() {
           </div>
         </div>
       </section> */}
-      <section className="w-full py-6 md:py-12 lg:py-16">
-        <div className="container grid items-start gap-4 px-4 md:px-6 lg:gap-10">
+      <section className="w-full py-6 md:py-6 lg:py-8">
+        <div className="grid items-start gap-4 px-4 md:px-12 lg:gap-10">
           <div className="space-y-3">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Contact Us</h2>
             <p className="max-w-3xl text-gray-500 md:text-xl/relaxed xl:text-xl/relaxed dark:text-gray-400">

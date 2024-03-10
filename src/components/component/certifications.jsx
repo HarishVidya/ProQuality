@@ -7,7 +7,7 @@
 export function Certifications() {
   return (<>
     <div className="py-12 sm:py-16 lg:py-24">
-      <div className="container px-4">
+      <div className="px-4">
         <div className="grid gap-6 lg:gap-8">
           <div className="grid items-center gap-6 px-10 md:grid-cols-1 lg:gap-8">
             <div className="flex flex-col justify-center space-y-3">
@@ -57,7 +57,7 @@ export function Certifications() {
     </div>
 
     <div className="py-12 border-t dark:bg-gray-800 lg:py-24">
-      <div className="container px-4 md:px-6">
+      <div className="container px-4 md:px-12">
         <div className="grid items-center gap-6 lg:grid-cols-[1fr_600px] lg:gap-12">
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">The ISO 9001 Certification Process</h2>
@@ -111,7 +111,7 @@ export function Certifications() {
     </div>
 
     <div className="py-12 border-t lg:py-24">
-      <div className="container px-4 md:px-6">
+      <div className="container px-4 md:px-12">
         <div className="grid items-center gap-6 lg:grid-cols-[1fr_600px] lg:gap-12">
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">The ISO 14001 Certification Process</h2>
@@ -163,7 +163,7 @@ export function Certifications() {
     </div>
 
     <div className="py-12 border-t dark:bg-gray-800 lg:py-24">
-      <div className="container px-4 md:px-6">
+      <div className="container px-4 md:px-12">
         <div className="grid items-center gap-6 lg:grid-cols-[1fr_600px] lg:gap-12">
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">The IATF 16949 Certification Process</h2>
