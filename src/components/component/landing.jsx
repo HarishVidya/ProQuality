@@ -16,9 +16,10 @@ export function Landing() {
           <div
             className="container flex flex-col items-center justify-center px-4 space-y-4 md:px-6">
             <div className="space-y-2 text-center">
-              <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">Quality Certification Services</h1>
+            <h1 className="py-4 text-3xl font-bold tracking-tighter sm:text-8xl">Pro Quality Services</h1>
+              <h1 className="py-2 text-3xl font-bold tracking-tighter text-gray-200 sm:text-5xl">Quality Certification Services</h1>
               <p
-                className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+                className="max-w-full text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                 Certify your commitment to quality. Let our experts guide you through the process.
               </p>
             </div>
